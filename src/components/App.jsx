@@ -1,11 +1,11 @@
-import {Profile} from './firstTask/Profile/Profile'
+import {Profile} from './Profile/Profile/Profile'
 import user from '../user.json'
-import data from './secondTask/data.json'
-import { Statistics } from './secondTask/Statistics'
-import friends from './thirdTask/friends.json';
-import { FriendList } from './thirdTask/FriendList'
-import transactions from './fourTask/transactions.json';
-import { TransactionHistory } from "./fourTask/TransactionHistory";
+import data from './Statistics/data.json'
+import { Statistics } from './Statistics/Statistics'
+import friends from './FriendList/friends.json';
+import { FriendList } from './FriendList/FriendList'
+import transactions from './TransactionHistory/transactions.json';
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
 
 export const App = () => {
 
